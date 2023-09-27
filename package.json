@@ -1,0 +1,9 @@
+{
+  "name": "rune-shop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "bitcore-lib": "^10.0.11",
+    "prompt-sync": "^4.2.0"
+  }
+}
