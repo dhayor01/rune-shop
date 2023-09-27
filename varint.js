@@ -47,7 +47,7 @@ function writePrefixVarint(n) {
 }
 
 function writeBitcoinVarint(n) {
-	new btc.encoding.Varint(n).toBuffer()
+	return Array.from(new btc.encoding.Varint(n).toBuffer())
 }
 
 module.exports = {

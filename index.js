@@ -73,6 +73,7 @@ async function main() {
 		console.error("Symbol cannot start with A in b26 for now.")
 		return;
 	}
+	console.log("Using symbol encoding:", symbolEncoding)
 
 	console.log("Choose a varint encoding: prefix (default) or bitcoin")
 	let varintEncoding = prompt("> ") || undefined
@@ -83,6 +84,7 @@ async function main() {
 		console.error("Invalid varint encoding.")
 		return;
 	}
+	console.log("Using varint encoding:", varintEncoding)
 
 	console.log("Building transaction...")
 
